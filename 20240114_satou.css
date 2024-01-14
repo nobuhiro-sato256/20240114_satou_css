@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.coachtech{
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.header__title{
+    font-size: 30px;
+    color: #151d84;
+    margin-left: 30px;
+}
+.header__nav{
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    font-size: 20px;
+    margin: 20px 20px 20px auto;
+}
+.header__nav a{
+    text-decoration: none;
+    color: #151d84;
+}
+.main{
+    display: grid;
+    grid-template-rows: 50px 200px 90px 100px 100px ;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.main__img {
+    background-image: url(20240114_satou_img/firstview.jpeg);
+    background-size: cover;
+    grid-row: 2/5;
+    grid-column: 2/4;
+}
+/* .main__img img{ */
+    /* width: 100%; */
+/* } 背景画像として表示してる為、コメントアウトしています。後で修正する可能性がある為、ここに残してます。*/
+.main__title{
+    margin: 0;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    font-size: 70px;
+}
+.main__blue{
+    background: #151d84;
+    grid-row: 4/6;
+    grid-column: 1/3;
+}
